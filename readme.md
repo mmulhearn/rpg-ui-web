@@ -8,6 +8,9 @@ The goal of RPG is to create a browser-based RPG.  The initial development will 
 - Data Stores: Cosmos?
 
 ## Features
+- Users
+  - DM (aka game admin)
+  - Player
 - Character sheet management
   - Create character wizard
   - Level up help
@@ -38,6 +41,7 @@ The goal of RPG is to create a browser-based RPG.  The initial development will 
   - Health meters (for allies)
 
 ## Architecture
+- [System Architecture](docs/system-architecture.md)
 
 ## Work Management
 Azure DevOps will be used to track work items for feature development.
