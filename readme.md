@@ -1,53 +1,27 @@
-# RPG
-The goal of RPG is to create a browser-based RPG.  The initial development will be to support D&D but it should be architected to allow future expansion into other RPGs.
+# RpgApp
 
-## Technology
-- Web: SPA, either Angular or React
-- Communication: HTTP polling or web sockets (if web sockets can be done very cheaply)
-- Server: .NET Core
-- Data Stores: Cosmos?
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
-## Features
-- Users
-  - DM (aka game admin)
-  - Player
-- Character sheet management
-  - Create character wizard
-  - Level up help
-  - Inventory tracking
-  - Equipment tracking
-  - Money tracking
-  - Health and conditions tracking
-  - Actions (spells, weapons, physical movement)
-- Custom maps
-  - Grid systems (square vs hex)
-  - Terrain types (regular, rough, non-inabitable like trees, etc)
-  - Movement system (allow user to select path to move through)
-  - Show active AoE
-- Items
-  - Preconfigured weapons
-  - Preconfigured armor
-  - Preconfigured items
-  - Allow custom weapons, armor and items
-- Spells
-  - Preconfigured spells
-  - Allow custom spells and effects
-- Combat
-  - Target enemies and allies with attacks and spells
-    - Auto-add and -deduct HP
-    - Auto-add and -remove conditions based on spells
-  - Show ranges of actions
-  - Combat order/turn tracker
-  - Health meters (for allies)
+## Development server
 
-## Architecture
-- [System Architecture](docs/system-architecture.md)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Work Management
-Azure DevOps will be used to track work items for feature development.
+## Code scaffolding
 
-## Contributing
-Cut branch, develop, PR back into `main`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## CI/CD
-While currently disabled, AzureDevops CI/CD pipelines will probably be used.
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
